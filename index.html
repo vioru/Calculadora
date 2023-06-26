@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        <title>Calculadora</title>
+    </head>
+    <body class="container text-center">
+        <h1>Calculadora</h1>
+        <div class="my-3">
+            <div class="">
+                <input type="number" id="number1" placeholder="Ingresa el primer número">
+                <input type="number" id="number2" placeholder="Ingrese el segundo número">
+            </div>
+            <div class="my-3 ">
+                <button class="btn btn-success" onclick="Addition()">Sumar</button>
+                <button class="btn btn-danger" onclick="Subtraction()">Restar</button>
+                <button class="btn btn-warning" onclick="Multiplication()">Multiplicar</button>
+                <button class="btn btn-primary" onclick="Division()">Dividir</button>
+                <button class="btn btn-secondary" onclick="Percentage()">Porcentaje</button>
+                <button class="btn btn-info" onclick="Clean()">Limpiar</button>
+            </div>
+        </div>
+        <div id="result"> </div>
+        <script src="index.js"></script>
+    </body>
+</html>
